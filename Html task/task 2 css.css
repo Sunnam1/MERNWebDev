@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+.box {
+    border: 2px solid black;
+    text-align: left;
+    font-size: 20px;
+    width: 300px;
+    background-color: white;
+}
+ul {
+    font-size: 18px;
+}

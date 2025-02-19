@@ -1,0 +1,52 @@
+body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: auto;
+        }
+
+        td, th {
+            padding: 5px;
+            border: 1px solid #000;
+            text-align: left;
+        }
+
+        input, select, textarea {
+            width: 98%;
+            padding: 4px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        td input[type="radio"], td input[type="checkbox"] {
+            margin: 0 5px 0 0;
+            width: auto;
+        }
+        .gender-container {
+            display: flex;
+            flex-direction: column; /* Makes Male & Female appear vertically */
+        }
+
+        .register-btn {
+            display: block;
+            width: 100px;
+            padding: 8px;
+            margin: 10px auto;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .register-btn:hover {
+            background-color: #0056b3;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }

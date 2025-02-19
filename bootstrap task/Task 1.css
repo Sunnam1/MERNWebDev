@@ -1,0 +1,25 @@
+.navbar {
+            background-color: #00acee; /* Light blue header */
+        }
+        .navbar-brand {
+            color: white;
+            font-size: 1.5rem;
+        }
+        .nav-link {
+            color: white !important;
+        }
+        .menu-bar {
+            background-color: gray;
+            padding: 10px 0;
+        }
+        .sidebar {
+            background-color: darkgray;
+            padding: 20px;
+            min-height: 80vh;
+            color: white;
+        }
+        .content {
+            text-align: center;
+            padding: 20px;
+            min-height: 80vh;
+        }

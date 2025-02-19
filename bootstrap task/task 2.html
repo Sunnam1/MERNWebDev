@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Builderz - Construction Company</title>
+    <link rel="stylesheet" type="text/css" href="task 2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            background-color: #0B1C39;
+        }
+        .navbar-brand, .nav-link, .top-info {
+            color: #FFD700 !important;
+        }
+        .hero {
+            position: relative;
+            background: url('construction.jpg') no-repeat center center/cover;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        .features {
+            background-color: #FFD700;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="container-fluid bg-dark text-light py-2 d-none d-lg-block">
+        <div class="row">
+            <div class="col-md-4 text-center top-info">Opening Hour: Mon - Fri, 8:00 - 6:00</div>
+            <div class="col-md-4 text-center top-info">Call Us: +012 345 6789</div>
+            <div class="col-md-4 text-center top-info">Email Us: info@example.com</div>
+        </div>
+    </div>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Builderz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+                <a href="#" class="btn btn-warning ms-3">Get A Quote</a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-content">
+            <h1>We Are Professional</h1>
+            <h2>For Your Dream Project</h2>
+            <a href="#" class="btn btn-light mt-3">Get A Quote</a>
+        </div>
+    </div>
+    
+    <!-- Features Section -->
+    <div class="container text-center py-5">
+        <div class="row">
+            <div class="col-md-4 features">
+                <h5>Expert Worker</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="col-md-4 features">
+                <h5>Quality Work</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="col-md-4 features">
+                <h5>24/7 Support</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

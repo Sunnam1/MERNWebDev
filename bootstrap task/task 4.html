@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Material Cards</title>
+    <link rel="stylesheet" type="text/css" href="task 4.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        .card img {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .card-body {
+            text-align: center;
+        }
+        .card-title {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .card a {
+            color: #ffa726;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .card a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container my-5">
+    <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://source.unsplash.com/300x200/?nature" class="card-img-top" alt="Card Image">
+                <div class="card-body">
+                    <h5 class="card-title">Material Cards</h5>
+                    <p class="card-text">Cards for display in portfolio style material design by Google.</p>
+                    <a href="#">LINK</a> <a href="#">LINK</a>
+                </div>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://source.unsplash.com/300x200/?ocean" class="card-img-top" alt="Card Image">
+                <div class="card-body">
+                    <h5 class="card-title">Material Cards</h5>
+                    <p class="card-text">Cards for display in portfolio style material design by Google.</p>
+                    <a href="#">LINK</a> <a href="#">LINK</a>
+                </div>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://source.unsplash.com/300x200/?abstract" class="card-img-top" alt="Card Image">
+                <div class="card-body">
+                    <h5 class="card-title">Material Cards</h5>
+                    <p class="card-text">Cards for display in portfolio style material design by Google.</p>
+                    <a href="#">LINK</a> <a href="#">LINK</a>
+                </div>
+            </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://source.unsplash.com/300x200/?technology" class="card-img-top" alt="Card Image">
+                <div class="card-body">
+                    <h5 class="card-title">Material Cards</h5>
+                    <p class="card-text">Cards for display in portfolio style material design by Google.</p>
+                    <a href="#">LINK</a> <a href="#">LINK</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

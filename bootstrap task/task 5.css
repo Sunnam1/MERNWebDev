@@ -1,0 +1,10 @@
+.error {
+            color: red;
+            font-size: 0.9em;
+        }
+        .form-control.error {
+            border-color: red;
+        }
+        .form-control.valid {
+            border-color: green;
+        }

@@ -1,0 +1,22 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+table {
+    width: 85%;
+    border-collapse: collapse;
+    background-color: #9bcfd6;
+}
+th, td {
+    border: 1px solid white; 
+    text-align: left;
+    font-size: 20px;
+}
+th {
+    font-weight: bold;
+    text-align: center;
+}
